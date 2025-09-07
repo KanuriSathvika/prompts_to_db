@@ -1,0 +1,13 @@
+{
+    "chat_prompt":{
+        "system_prompt":{
+                "main_prompt": "Summarize the tender document in 200 words and give me keywords.",
+                "do": "Highlight key dates,\nInclude eligibility criteria",
+                "donts": "Don’t add personal opinions,\n Don’t change legal terms",
+                "examples": "Example tender summary text here..."
+        },
+        "user_prompt":{
+                "tender_document": "Insert tender document text here..."
+        }
+    }
+}
